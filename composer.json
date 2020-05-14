@@ -1,0 +1,21 @@
+{
+    "name": "afagorn/dialogue-telegram-bot",
+    "description": "Bot from Telegram messenger with user-dialogue feature",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Oleg Slesarenko",
+            "email": "afagorn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "afagorn\\DialogueTelegramBot\\": "src"
+        }
+    },
+    "require": {
+        "php": "^7.1",
+        "unreal4u/telegram-api": "~3.4"
+    }
+}
