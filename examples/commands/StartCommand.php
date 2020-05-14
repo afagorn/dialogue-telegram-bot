@@ -1,6 +1,9 @@
 <?php
+namespace afagorn\DialogueTelegramBot\examples\commands;
 
-class StartCommand extends \DialogueTelegramBotSDK\Commands\Command
+use afagorn\DialogueTelegramBotSDK\Commands\Command;
+
+class StartCommand extends Command
 {
     function setName()
     {

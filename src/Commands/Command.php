@@ -1,7 +1,7 @@
 <?php
-namespace DialogueTelegramBotSDK\Commands;
+namespace afagorn\DialogueTelegramBotSDK\Commands;
 
-use DialogueTelegramBotSDK\TelegramAPI;
+use afagorn\DialogueTelegramBotSDK\TelegramAPI;
 use unreal4u\TelegramAPI\Telegram\Types\Update;
 
 abstract class Command implements ICommand

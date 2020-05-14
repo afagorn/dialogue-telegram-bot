@@ -11,11 +11,15 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "afagorn\\DialogueTelegramBot\\": "src"
+            "afagorn\\DialogueTelegramBot\\": "src",
+            "afagorn\\DialogueTelegramBot\\examples\\": "examples"
         }
     },
     "require": {
         "php": "^7.1",
         "unreal4u/telegram-api": "~3.4"
+    },
+    "require-dev": {
+        "vlucas/phpdotenv": "^4.1@dev"
     }
 }
