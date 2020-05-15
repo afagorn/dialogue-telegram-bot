@@ -1,5 +1,5 @@
 <?php
-namespace afagorn\DialogueTelegramBotSDK\Commands;
+namespace afagorn\DialogueTelegramBot\Commands;
 
 interface ICommand
 {

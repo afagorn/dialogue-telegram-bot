@@ -1,7 +1,7 @@
 <?php
-namespace afagorn\DialogueTelegramBotSDK;
+namespace afagorn\DialogueTelegramBot;
 
-use afagorn\DialogueTelegramBotSDK\Commands\CommandHandler;
+use afagorn\DialogueTelegramBot\Commands\CommandHandler;
 use unreal4u\TelegramAPI\Abstracts\TraversableCustomType;
 use unreal4u\TelegramAPI\Telegram\Methods\GetUpdates;
 use unreal4u\TelegramAPI\Telegram\Types\Update;

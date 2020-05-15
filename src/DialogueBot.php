@@ -1,7 +1,7 @@
 <?php
-namespace afagorn\DialogueTelegramBotSDK;
+namespace afagorn\DialogueTelegramBot;
 
-use afagorn\DialogueTelegramBotSDK\Commands\Command;
+use afagorn\DialogueTelegramBot\Commands\Command;
 
 class DialogueBot
 {

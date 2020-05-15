@@ -1,8 +1,8 @@
 <?php
-namespace afagorn\DialogueTelegramBotSDK;
+namespace afagorn\DialogueTelegramBot;
 
 use Clue\React\Socks\Client;
-use afagorn\DialogueTelegramBotSDK\DTO\ProxyDTO;
+use afagorn\DialogueTelegramBot\DTO\ProxyDTO;
 use React\EventLoop\Factory;
 use React\EventLoop\LoopInterface;
 use unreal4u\TelegramAPI\Abstracts\TelegramMethods;

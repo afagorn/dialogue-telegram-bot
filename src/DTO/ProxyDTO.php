@@ -1,5 +1,5 @@
 <?php
-namespace afagorn\DialogueTelegramBotSDK\DTO;
+namespace afagorn\DialogueTelegramBot\DTO;
 
 class ProxyDTO
 {
