@@ -2,8 +2,8 @@
 include "vendor/autoload.php";
 
 use afagorn\DialogueTelegramBot\examples\commands\StartCommand;
-use afagorn\DialogueTelegramBotSDK\DialogueBot;
-use afagorn\DialogueTelegramBotSDK\TelegramAPI;
+use afagorn\DialogueTelegramBot\DialogueBot;
+use afagorn\DialogueTelegramBot\TelegramAPI;
 
 $dialogueBot = new DialogueBot(new TelegramAPI('TELEGRAM_BOT_TOKEN'));
 

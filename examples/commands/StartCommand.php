@@ -1,7 +1,7 @@
 <?php
 namespace afagorn\DialogueTelegramBot\examples\commands;
 
-use afagorn\DialogueTelegramBotSDK\Commands\Command;
+use afagorn\DialogueTelegramBot\Commands\Command;
 
 class StartCommand extends Command
 {

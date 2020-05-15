@@ -1,8 +1,8 @@
 <?php
 
 use afagorn\DialogueTelegramBot\examples\commands\StartCommand;
-use afagorn\DialogueTelegramBotSDK\DialogueBot;
-use afagorn\DialogueTelegramBotSDK\TelegramAPI;
+use afagorn\DialogueTelegramBot\DialogueBot;
+use afagorn\DialogueTelegramBot\TelegramAPI;
 
 require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'vendor'  . DIRECTORY_SEPARATOR . 'autoload.php';
 
@@ -13,7 +13,7 @@ $dotenv->load();
 
 $dialogueBot = new DialogueBot(new TelegramAPI(
     getenv("TELEGRAM_BOT_TOKEN"),
-    new \afagorn\DialogueTelegramBotSDK\DTO\ProxyDTO(
+    new \afagorn\DialogueTelegramBot\DTO\ProxyDTO(
         getenv("PROXY_SOCKS_IP"),
         getenv("PROXY_SOCKS_PORT"),
         getenv("PROXY_SOCKS_LOGIN"),

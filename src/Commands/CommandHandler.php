@@ -1,8 +1,8 @@
 <?php
 
-namespace afagorn\DialogueTelegramBotSDK\Commands;
+namespace afagorn\DialogueTelegramBot\Commands;
 
-use afagorn\DialogueTelegramBotSDK\TelegramAPI;
+use afagorn\DialogueTelegramBot\TelegramAPI;
 use unreal4u\TelegramAPI\Telegram\Types\Update;
 
 class CommandHandler
